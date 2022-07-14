@@ -52,7 +52,7 @@ const Links = () => {
                             Brand Recognition
                         </Box1Head>
                         <Box1Text>
-                            Boost your brand recognition with each click. Generate links doesn't mean a thing. Branded links help instil confidence in your content.
+                            Boost your brand recognition with each click. Generate links doesnt mean a thing. Branded links help instil confidence in your content.
                         </Box1Text>
                    
 
@@ -65,7 +65,7 @@ const Links = () => {
                             Brand Recognition
                         </Box1Head>
                         <Box1Text>
-                            Boost your brand recognition with each click. Generate links doesn't mean a thing. Branded links help instil confidence in your content.
+                            Boost your brand recognition with each click. Generate links doesnt mean a thing. Branded links help instil confidence in your content.
                         </Box1Text>
                         
                     </Box1>
@@ -78,7 +78,7 @@ const Links = () => {
                             Brand Recognition
                         </Box1Head>
                         <Box1Text>
-                            Boost your brand recognition with each click. Generate links doesn't mean a thing. Branded links help instil confidence in your content.
+                            Boost your brand recognition with each click. Generate links doesnt mean a thing. Branded links help instil confidence in your content.
                         </Box1Text>
                     </Box1>
                     
