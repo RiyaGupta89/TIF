@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import {Wrapper,Container,Container1,Box,BoxLeft,BoxRight,Text,TextCyan,Button,Heading,TextNew,Boxes,Box1,Box1Head,Box1Text,Img,Hr,ImgBox} from "./Links.styled"
 
 const Links = () => {
+
+    const [copySuccess,setCopySuccess]=useState(false);
+
+    const handleClick = () => {
+        navigator.clipboard.writeText('https://rel.ink/k4lKyk')
+        setCopySuccess(true);
+    }
+    
     return (
         <Wrapper>
             <Container>
@@ -12,7 +20,7 @@ const Links = () => {
                    
                     <BoxRight>
                         <TextCyan>https://rel.ink/k4lKyk</TextCyan>
-                        <Button>Copy</Button>
+                        <Button style={{backgroundColor:copySuccess?'#000':'#2acfcf'}} onClick={handleClick}>{copySuccess?'Copied':'Copy'}</Button>
                     </BoxRight>
                 </Box>
                 <Box>
@@ -22,7 +30,7 @@ const Links = () => {
                    
                     <BoxRight>
                         <TextCyan>https://rel.ink/k4lKyk</TextCyan>
-                        <Button>Copy</Button>
+                        <Button style={{backgroundColor:copySuccess?'#000':'#2acfcf'}} onClick={handleClick}>{copySuccess?'Copied':'Copy'}</Button>
                     </BoxRight>
                 </Box>
                 <Box>
@@ -32,7 +40,7 @@ const Links = () => {
                     
                     <BoxRight>
                         <TextCyan>https://rel.ink/k4lKyk</TextCyan>
-                        <Button>Copy</Button>
+                        <Button style={{backgroundColor:copySuccess?'#000':'#2acfcf'}} onClick={handleClick}>{copySuccess?'Copied':'Copy'}</Button>
                     </BoxRight>
                 </Box>
             </Container>
