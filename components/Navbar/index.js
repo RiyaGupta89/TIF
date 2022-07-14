@@ -1,6 +1,6 @@
 import React from "react";
 import {Wrapper,Container,Left,Right,Img,Text,Box} from "./Navbar.styled"
-import Link from "next/Link";
+import Link from "next/link";
 
 const Navbar = () => {
     return(
